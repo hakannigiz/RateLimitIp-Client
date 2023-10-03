@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidationApp.Web", "FluentValidationApp.Web\FluentValidationApp.Web.csproj", "{DB143107-A28D-4F66-9FFF-AB89AE97D7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimit.API", "RateLimit.API\RateLimit.API.csproj", "{CF250FDD-5AA7-48A0-9A4E-A73D02E2CEC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB143107-A28D-4F66-9FFF-AB89AE97D7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB143107-A28D-4F66-9FFF-AB89AE97D7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB143107-A28D-4F66-9FFF-AB89AE97D7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB143107-A28D-4F66-9FFF-AB89AE97D7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF250FDD-5AA7-48A0-9A4E-A73D02E2CEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF250FDD-5AA7-48A0-9A4E-A73D02E2CEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF250FDD-5AA7-48A0-9A4E-A73D02E2CEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF250FDD-5AA7-48A0-9A4E-A73D02E2CEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1684468-1933-4E3F-9468-D92E1EAB692E}
+	EndGlobalSection
+EndGlobal
